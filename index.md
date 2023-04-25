@@ -1,4 +1,11 @@
-This is a text
+PART 1:
+Note: This one image may be temporary, more will be coming soon as I will work things out.
+![image](https://user-images.githubusercontent.com/122843554/234185001-c3f28a2d-bafd-47be-a29f-800b79131edf.png)
+The methods in my code are called handler2, because there's already already another handler in use for NumberServer.java. That method does the job of keeping track of the URL and prints the result if there are any attempts of trying to insert a new message.
+
+The relevant arguments to those methods are any type of strings or just no strings at all. The values of any relevant fields in the class would be any strings that is typed out.
+
+Unfortunately, I was unable to answer this question becasue I am having trouble modifying the String Server2, which helps the website builds its URL. This will all be changed when things are sorted out.
 
 PART 2: 
 After the committing the code, this photo shown below are before and after the changes...
