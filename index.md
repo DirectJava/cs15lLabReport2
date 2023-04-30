@@ -1,11 +1,11 @@
 PART 1:
-Note: This one image may be temporary, more will be coming soon as I will work things out.
-![image](https://user-images.githubusercontent.com/122843554/234185001-c3f28a2d-bafd-47be-a29f-800b79131edf.png)
-The methods in my code are called handler2, because there's already already another handler in use for NumberServer.java. That method does the job of keeping track of the URL and prints the result if there are any attempts of trying to insert a new message.
-
-The relevant arguments to those methods are any type of strings or just no strings at all. The values of any relevant fields in the class would be any strings that is typed out.
-
-Unfortunately, I was unable to answer this question becasue I am having trouble modifying the String Server2, which helps the website builds its URL. This will all be changed when things are sorted out.
+Here is my code for StringServer:
+![image](https://user-images.githubusercontent.com/122843554/235336281-593d9000-763d-49df-bdfe-819120e01660.png)
+Inside the class, Handler2, the method that I have is "handleRequest", which takes in a path such as "/", "add-message", or "add-message?s=<string>" to produce the webpage that displays the string I put in the path. Relevant arguments are any strings from a single character to a big long sentence and the only relevant field here is the "String phrase = ' ' ", which helps take in any string. The vaule of any relevant fields of the class change by adding a string into "add-message?s=<string>" to produce another string on the screen. Here's one example: 
+  ![image](https://user-images.githubusercontent.com/122843554/235336890-2b62d68d-30d3-483c-be19-35d03f12ae34.png)
+  
+  In the second image below, the method is exactly the same as the prevous example. Relevant arguments to both the class and methods are still numbers, strings, and characters. As long as I add the message "add-message" in the URL, the webpage will still display the string that I typed. The values can be changed by either inserting another string or something else that will print out an error message. Here's another example:
+  ![image](https://user-images.githubusercontent.com/122843554/235337207-81baa448-8209-48a1-a1fe-6b9e506ae287.png)
 
 PART 2: 
 After the committing the code, this photo shown below are before and after the changes...
