@@ -2,8 +2,8 @@ PART 1:
 Here is my code for StringServer:
 ![image](https://user-images.githubusercontent.com/122843554/235336281-593d9000-763d-49df-bdfe-819120e01660.png)
 Inside the class, Handler2, the method that I have is "handleRequest", which takes in a path such as "/", "add-message", or "add-message?s=<string>" to produce the webpage that displays the string I put in the path. Relevant arguments are any strings from a single character to a big long sentence and the only relevant field here is the "String phrase = ' ' ", which helps take in any string. The vaule of any relevant fields of the class change by adding a string into "add-message?s=<string>" to produce another string on the screen. Here's one example: 
-  ![image](https://github.com/DirectJava/cs15lLabReport2/assets/122843554/7a01566d-fad2-4f16-8746-711cc3cc78c0)
 
+![image](https://github.com/DirectJava/cs15lLabReport2/assets/122843554/53a1459f-09f3-4a20-97c8-2e62fc2148fc)
   
   In the second image below, the method is exactly the same as the prevous example. Relevant arguments to both the class and methods are still numbers, strings, and characters. As long as I add the message "add-message" in the URL, the webpage will still display the string that I typed. The values can be changed by either inserting another string or something else that will print out an error message. Here's another example:
   ![image](https://user-images.githubusercontent.com/122843554/235337207-81baa448-8209-48a1-a1fe-6b9e506ae287.png)
