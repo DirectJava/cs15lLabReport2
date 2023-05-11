@@ -1,7 +1,7 @@
 PART 1:
 Here is my code for StringServer:
 ![image](https://user-images.githubusercontent.com/122843554/235336281-593d9000-763d-49df-bdfe-819120e01660.png)
-Inside the class, Handler2, the method that I have is "handleRequest", which takes in a path such as `/`, `add-message`, or `add-message?s=<string>` to produce the webpage that displays the string I put in the path. Relevant arguments are any strings from a single character to a big long sentence and the only relevant field here is the `String phrase = ' ' `, which helps take in any string. The vaule of any relevant fields of the class change by adding a string into "add-message?s=<string>" to produce another string on the screen. Here's one example: 
+Inside the class, Handler2, the method that I have is "handleRequest", which takes in a path such as `/`, `add-message`, or `add-message?s=<string>` to produce the webpage that displays the string I put in the path. Relevant arguments are any strings from a single character to a big long sentence and the only relevant field here is the `String phrase = ' ' `, which helps take in any string. The vaule of any relevant fields of the class change by adding a string into `add-message?s=<string>` to produce another string on the screen. Here's one example: 
 
 ![image](https://github.com/DirectJava/cs15lLabReport2/assets/122843554/53a1459f-09f3-4a20-97c8-2e62fc2148fc)
   
